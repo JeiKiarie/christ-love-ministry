@@ -1,0 +1,28 @@
+// app/get-involved/page.js
+import { Container, Typography, Box, List, ListItem, ListItemText } from '@mui/material';
+
+export default function GetInvolved() {
+  return (
+    <Container>
+      <Box my={4}>
+        <Typography variant="h3" component="h1" gutterBottom>
+          Get Involved
+        </Typography>
+        <List>
+          <ListItem>
+            <ListItemText primary="Join a Ministry" secondary="Become a part of one of our many ministries." />
+          </ListItem>
+          <ListItem>
+            <ListItemText primary="Volunteer" secondary="Help out at our events and outreach programs." />
+          </ListItem>
+          <ListItem>
+            <ListItemText primary="Attend Events" secondary="Participate in our various church events." />
+          </ListItem>
+          <ListItem>
+            <ListItemText primary="Donate" secondary="Support our church and its missions." />
+          </ListItem>
+        </List>
+      </Box>
+    </Container>
+  );
+}

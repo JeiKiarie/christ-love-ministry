@@ -1,0 +1,26 @@
+/church-website
+  /app
+    /about
+      page.js
+    /contact
+      page.js
+    /events
+      page.js
+    /get-involved
+      page.js
+    /giving
+      page.js
+    /ministries
+      page.js
+    /sermons
+      page.js
+    /layout.js
+    /page.js
+  /components
+    Footer.js
+    Header.js
+  /styles
+    globals.css
+  next.config.js
+  package.json
+  README.md
