@@ -55,39 +55,39 @@ const HomePage = () => {
 	// const theme = useTheme();
 
 	return (
-		<Box sx={{ px: 2, py: 4 }}>
+		<Box sx={{ py: 1 }}>
 			{/* Hero Section with Carousel */}
-			<Box sx={{ mb: 6 }}>
+			<Box sx={{ mb: 1 }}>
 				<Carousel />
 			</Box>
 
 			{/* About Us Section */}
-			<Box sx={{ my: 6, textAlign: 'center' }}>
+			<Box sx={{ textAlign: 'center' }}>
 				<Typography
 					variant="h3"
 					component="h2"
 					gutterBottom>
-					Welcome to [Church Name]
+					Welcome to Christ's Love Ministry
 				</Typography>
 				<Typography
 					variant="h5"
 					paragraph>
-					At [Church Name], we believe in the power of community and faith. Our
-					mission is to nurture and inspire individuals to grow spiritually and
-					engage actively in our church life. We offer a variety of programs and
-					services to support every member of our community.
+					At Christ's Love Ministry, we believe in the power of community and
+					faith. Our mission is to nurture and inspire individuals to grow
+					spiritually and engage actively in our church life. We offer a variety
+					of programs and services to support every member of our community.
 				</Typography>
 				<Button
 					variant="contained"
 					color="primary"
 					component={Link}
-					href="/about">
+					href="/about-us">
 					Learn More About Us
 				</Button>
 			</Box>
 
 			{/* Upcoming Events Section */}
-			<Box sx={{ my: 6 }}>
+			<Box sx={{ my: 6, textAlign: 'center' }}>
 				<Typography
 					variant="h4"
 					component="h2"
@@ -96,6 +96,8 @@ const HomePage = () => {
 				</Typography>
 				<Grid
 					container
+					px={1}
+					justifyContent={'space-between'}
 					spacing={2}>
 					{events.map((event, index) => (
 						<Grid
