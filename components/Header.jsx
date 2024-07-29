@@ -28,11 +28,11 @@ export default function Header() {
 	const drawer = (
 		<Box
 			onClick={handleDrawerToggle}
-			sx={{ textAlign: 'center' }}>
+			sx={{ textAlign: 'center', px: 1 }}>
 			<Typography
-				variant="h6"
+				variant="h5"
 				sx={{ my: 2 }}>
-				Church Name
+				Christ's Love Ministry
 			</Typography>
 			<List>
 				{[
@@ -58,7 +58,7 @@ export default function Header() {
 	);
 
 	return (
-		<Box sx={{ flexGrow: 1, marginBottom: '4rem' }}>
+		<Box sx={{ flexGrow: 1, marginBottom: '4.2rem' }}>
 			<AppBar
 				position="fixed"
 				top="0"
@@ -68,7 +68,7 @@ export default function Header() {
 					<Typography
 						variant="h6"
 						sx={{ flexGrow: 1 }}>
-						Church Name
+						Christ's Love Ministry
 					</Typography>
 					{isMobile ? (
 						<>

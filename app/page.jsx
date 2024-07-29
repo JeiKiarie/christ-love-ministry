@@ -55,7 +55,7 @@ const HomePage = () => {
 	// const theme = useTheme();
 
 	return (
-		<Box sx={{ py: 1 }}>
+		<Box sx={{ py: 0.2 }}>
 			{/* Hero Section with Carousel */}
 			<Box sx={{ mb: 1 }}>
 				<Carousel />
@@ -73,9 +73,10 @@ const HomePage = () => {
 					variant="h5"
 					paragraph>
 					At Christ's Love Ministry, we believe in the power of community and
-					faith. Our mission is to nurture and inspire individuals to grow
-					spiritually and engage actively in our church life. We offer a variety
-					of programs and services to support every member of our community.
+					faith. We strive to nurture and inspire individuals to grow
+					spiritually and engage actively in our church life. We also offer a
+					variety of programs and services to support every member of our
+					community.
 				</Typography>
 				<Button
 					variant="contained"
@@ -146,9 +147,22 @@ const HomePage = () => {
 							sm={6}
 							md={4}
 							key={index}>
-							<Card variant="outlined">
+							<Card
+								variant="outlined"
+								sx={{
+									minHeight: '13rem',
+									display: 'flex',
+									flexDirection: 'column',
+									justifyContent: 'space-between',
+								}}
+								// sx={{ }}
+							>
 								<CardContent>
-									<Typography variant="h5">{ministry.name}</Typography>
+									<Typography
+										variant="h5"
+										gutterBottom>
+										{ministry.name}
+									</Typography>
 									<Typography paragraph>{ministry.description}</Typography>
 								</CardContent>
 								<CardActions>
@@ -233,9 +247,9 @@ const HomePage = () => {
 				</Typography>
 				<Typography paragraph>
 					Whether you are looking to volunteer, join a small group, or become a
-					member, there are many ways to get involved at [Church Name]. We
-					invite you to explore the opportunities and find where you can make a
-					difference.
+					member, there are many ways to get involved at Christ's Love Ministry.
+					We invite you to explore the opportunities and find where you can make
+					a difference.
 				</Typography>
 				<Button
 					variant="contained"
@@ -276,7 +290,7 @@ const HomePage = () => {
 								<Typography
 									variant="body2"
 									color="textSecondary">
-									- Jane Doe
+									- Member (Name to be supplied)
 								</Typography>
 							</CardContent>
 						</Card>
@@ -298,7 +312,7 @@ const HomePage = () => {
 								<Typography
 									variant="body2"
 									color="textSecondary">
-									- John Smith
+									- Member (Name to be supplied)
 								</Typography>
 							</CardContent>
 						</Card>

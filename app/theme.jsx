@@ -11,7 +11,8 @@ const theme = createTheme({
 		},
 	},
 	typography: {
-		fontFamily: 'Arial, sans-serif',
+		fontFamily: 'Poppins, sans-serif',
+		// fontSize: 20,
 	},
 });
 

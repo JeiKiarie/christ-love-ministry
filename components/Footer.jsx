@@ -29,89 +29,30 @@ const Footer = () => {
 		},
 		zoom: 11,
 	};
-
 	return (
-		<Box sx={{ bgcolor: theme.palette.background.paper, py: 6, px: 4 }}>
+		<Box
+			component={'section'}
+			sx={{
+				bgcolor: theme.palette.background.paper,
+				py: 6,
+				px: 2,
+			}}>
 			<Grid
+				className="section-center footer"
 				container
-				spacing={4}>
-				{/* Mission Statement Section */}
-				<Grid
-					item
-					xs={12}
-					md={4}>
-					<Typography
-						variant="h6"
-						gutterBottom>
-						Our Mission
-					</Typography>
-					<Typography
-						variant="body1"
-						paragraph>
-						At [Church Name], our mission is to spread the love and teachings of
-						Jesus Christ through our worship, community outreach, and various
-						ministries. We aim to create a welcoming environment where everyone
-						can grow in faith and find a place to belong.
-					</Typography>
-				</Grid>
-
-				{/* Contact Information Section */}
-				<Grid
-					item
-					xs={12}
-					md={4}>
-					<Typography
-						variant="h6"
-						gutterBottom>
-						Contact Us
-					</Typography>
-					<Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-						<LocationOn sx={{ mr: 1 }} />
-						<Typography variant="body1">
-							123 Church St., City, State, ZIP
-						</Typography>
-					</Box>
-					<Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-						<Phone sx={{ mr: 1 }} />
-						<Typography variant="body1">(123) 456-7890</Typography>
-					</Box>
-					<Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-						<EmailOutlined sx={{ mr: 1 }} />
-						<Typography variant="body1">
-							<Link href="mailto:info@church.com">info@church.com</Link>
-						</Typography>
-					</Box>
-				</Grid>
-
-				{/* Map Section */}
-				<Grid
-					item
-					xs={12}
-					md={4}>
-					<Typography
-						variant="h6"
-						gutterBottom>
-						Find Us
-					</Typography>
-					{/* <Box sx={{ height: '200px', width: '100%', mb: 2 }}>
-						<GoogleMapReact
-							bootstrapURLKeys={{ key: 'YOUR_GOOGLE_MAPS_API_KEY' }}
-							defaultCenter={defaultProps.center}
-							defaultZoom={defaultProps.zoom}>
-							<LocationOn
-								lat={40.73061}
-								lng={-73.935242}
-								text="My Church"
-							/>
-						</GoogleMapReact>
-					</Box> */}
-				</Grid>
-
+				spacing={4}
+				style={{ width: '100%', marginInline: 'auto' }}>
 				{/* Quick Links Section */}
 				<Grid
+					className="quick-links"
+					style={{
+						display: 'flex',
+						flexDirection: 'column',
+						// alignItems: 'center',
+					}}
 					item
 					xs={12}
-					md={4}>
+					md={1.5}>
 					<Typography
 						variant="h6"
 						gutterBottom>
@@ -168,9 +109,118 @@ const Footer = () => {
 						</Link>
 					</Box>
 				</Grid>
+				{/* Mission Statement Section */}
+				<Grid
+					className="mission-statement"
+					style={{
+						display: 'flex',
+						flexDirection: 'column',
+						// alignItems: 'center',
+						textAlign: 'justify',
+						paddingInline: '1rem',
+					}}
+					item
+					xs={12}
+					md={5.5}>
+					<Typography
+						variant="h6"
+						gutterBottom>
+						Our Mission
+					</Typography>
+					<Typography
+						variant="body1"
+						paragraph>
+						“To know God and to make Him known through evangelism and
+						discipleship”. To preach the gospel of Jesus Christ in the power of
+						the holy Spirit. To make disciples of all who believe the gospel To
+						establish Local Churches and abroad. To Provide diaconal services to
+						the disciples and the community. To equip the members with knowledge
+						and skill to serve the Lord Jesus Christ. To build church capacity
+						and mobilize resources that will facilitate the attainment of the
+						afore mentioned mission objectives.
+					</Typography>
+				</Grid>
+
+				{/* Contact Information Section */}
+
+				<Grid
+					className="contact-info"
+					style={{
+						display: 'flex',
+						flexDirection: 'column',
+						// alignItems: 'center',
+						// marginInline: 'auto',
+					}}
+					item
+					xs={12}
+					md={5}>
+					<Typography
+						variant="h6"
+						gutterBottom>
+						Contact Us
+					</Typography>
+					<Box
+						sx={{
+							display: 'flex',
+							// justifyContent: 'center',
+							alignItems: 'center',
+							mb: 1,
+						}}>
+						<LocationOn sx={{ mr: 1 }} />
+						<Typography variant="body2">
+							123 Church St., Nairobi, Kenya,
+						</Typography>
+					</Box>
+					<Box
+						sx={{
+							display: 'flex',
+							alignItems: 'center',
+							// justifyContent: 'center',
+							mb: 1,
+						}}>
+						<Phone sx={{ mr: 1 }} />
+						<Typography variant="body2">+254 722 374497</Typography>
+					</Box>
+					<Box
+						sx={{
+							display: 'flex',
+							alignItems: 'center',
+							// justifyContent: 'center',
+							mb: 1,
+						}}>
+						<EmailOutlined sx={{ mr: 1 }} />
+						<Typography variant="body2">
+							<Link href="mailto:info@church.com">info@ourchurch.com</Link>
+						</Typography>
+					</Box>
+				</Grid>
+
+				{/* Map Section */}
+				{/* <Grid
+					item
+					xs={12}
+					md={4}>
+					<Typography
+						variant="h6"
+						gutterBottom>
+						Find Us
+					</Typography> */}
+				{/* <Box sx={{ height: '200px', width: '100%', mb: 2 }}>
+						<GoogleMapReact
+							bootstrapURLKeys={{ key: 'YOUR_GOOGLE_MAPS_API_KEY' }}
+							defaultCenter={defaultProps.center}
+							defaultZoom={defaultProps.zoom}>
+							<LocationOn
+								lat={40.73061}
+								lng={-73.935242}
+								text="My Church"
+							/>
+						</GoogleMapReact>
+					</Box> */}
+				{/* </Grid> */}
 
 				{/* Newsletter Signup Section */}
-				<Grid
+				{/* <Grid
 					item
 					xs={12}
 					md={4}>
@@ -202,25 +252,25 @@ const Footer = () => {
 							Subscribe
 						</Button>
 					</Box>
-				</Grid>
+				</Grid> */}
 			</Grid>
 
 			{/* Social Media Icons Section */}
 			<Box sx={{ mt: 4, textAlign: 'center' }}>
 				<Link
-					href="https://facebook.com/[your-church]"
+					href="https://facebook.com/"
 					color="inherit"
 					sx={{ mx: 1 }}>
 					<Facebook />
 				</Link>
 				<Link
-					href="https://twitter.com/[your-church]"
+					href="https://twitter.com/"
 					color="inherit"
 					sx={{ mx: 1 }}>
 					<Twitter />
 				</Link>
 				<Link
-					href="https://instagram.com/[your-church]"
+					href="https://instagram.com/"
 					color="inherit"
 					sx={{ mx: 1 }}>
 					<Instagram />
@@ -238,7 +288,8 @@ const Footer = () => {
 				<Typography
 					variant="body2"
 					color="textSecondary">
-					&copy; {new Date().getFullYear()} [Church Name]. All rights reserved.
+					&copy; {new Date().getFullYear()} Christ's Love Ministry. All rights
+					reserved.
 				</Typography>
 				<Link
 					href="/privacy-policy"

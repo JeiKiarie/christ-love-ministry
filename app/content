@@ -1,26 +1,95 @@
 /church-website
-  /app
-    /about
-      page.js
-    /contact
-      page.js
-    /events
-      page.js
-    /get-involved
-      page.js
-    /giving
-      page.js
-    /ministries
-      page.js
-    /sermons
-      page.js
-    /layout.js
-    /page.js
-  /components
-    Footer.js
-    Header.js
-  /styles
-    globals.css
-  next.config.js
-  package.json
-  README.md
+/app
+/about
+page.js
+/contact
+page.js
+/events
+page.js
+/get-involved
+page.js
+/giving
+page.js
+/ministries
+page.js
+/sermons
+page.js
+/layout.js
+/page.js
+/components
+Footer.js
+Header.js
+/styles
+globals.css
+next.config.js
+package.json
+README.md
+
+Christ's Love Ministry is a Pentecostal Church totally submitted to
+God in Trinity. A Kiswahili and English speaking Church targeting the
+whole world to accept Jesus Christ as their personal Saviour. Missions
+oriented, with an outreach to the community within their reach. A
+community of believers, open to people of all tribes and races of the
+community. Our history dates back to 1997 when Apostle Dr. Jane Njeri
+Kinyanjui was residing in Mwiki Kasarani Nairobi County started a
+fellowship with the vision of establishing a church. The first church
+service was held at Mwiki - Kasarani. In 2003, the Church moved to
+Kasarani where the present Christ's Love Ministry Headquarter is.
+Christ's Love Ministry is grounded in the word of God and sound
+doctrine. We believe in the divine inspiration, truthfulness and
+authority of the Old and New Testament Scriptures as the infallible
+Word of God with power to accomplish His purpose of salvation.
+Christ's Love Ministry is a church that strives to know God and make
+Him known who desire to lift up the Lord Jesus Christ through worship
+and prayer as He draws His people through His Word. Christ's Love
+Ministry is grounded in the word of God and sound doctrine. We believe
+in the divine inspiration, truthfulness and authority of the Old and
+New Testament Scriptures as the infallible Word of God with power to
+accomplish His purpose of salvation. Christ's Love Ministry is a
+church that strives to know God and make Him known who desire to lift
+up the Lord Jesus Christ through worship and prayer as He draws His
+people through His Word. Our beliefs are founded solely on the Bible,
+which we consider God's infallible written Word. This includes both
+the Old and New Testaments, which we believe were uniquely inspired by
+the Holy Spirit and written without error in their original
+manuscripts. Christ's Love Ministry emphasizes individuals making a
+personal commitment to Christ, believers entering into water baptism,
+place of faith in divine healing, emphasis on the baptism in the Holy
+Spirit with the evidence of speaking in tongues, and the second coming
+of Jesus Christ. Christ's Live Ministry believes that God’s purpose
+concerning man is to seek and to save that which is lost, to be
+worshiped by man and to build a body of believers in the image of His
+Son Jesus Christ. That these believers, saved and called out of the
+world, constitute the Church of Jesus Christ built and established
+upon the foundation of the apostles and prophets, Jesus Christ Himself
+being the chief cornerstone. That the members of the Body, the Church
+of Jesus Christ, are enjoined to gather themselves for worship,
+fellowship, counsel, and instruction in the Word of God, the work of
+the ministry, and for the exercise of those spiritual gifts and
+offices provided for New Testament church order. That it is evident
+the early apostolic churches came together in fellowship as a
+representative body of saved, Spirit-filled believers who ordained and
+sent out evangelists and missionaries, and under the supervision of
+the Holy Spirit set over the apostles and church clerics . That the
+priority reason-for-being of the Christ's Love Ministry is to be an
+agency of God for evangelizing the world, to be a corporate body in
+which man may worship God, and to be a channel of God’s purpose to
+build a body of saints being perfected in the image of His Son. That
+the Christ's Love Ministry exists expressly to give continuing
+emphasis to this reason-for being in the New Testament apostolic
+pattern by teaching and encouraging believers to be baptized in the
+Holy Spirit, which enables them to evangelize in the power of the
+Spirit with accompanying supernatural signs, adding a necessary
+dimension to worshipful relationship with God, and enabling them to
+respond to the full working of the Holy Spirit in expression of fruit
+and gifts and ministries as in New Testament times for the edifying of
+the body of Christ. Christ's Love Ministry whose purpose is neither to
+usurp authority over the various local gathering, nor to deprive them
+of their scriptural and local rights and privileges; but to recognize
+and promote scriptural methods and order for worship, unity,
+fellowship, work, and business for God; and to disapprove unscriptural
+methods, doctrines, and conduct, endeavoring to keep the unity of the
+Spirit in the bond of peace, “till we all come in the unity of the
+faith, and of the knowledge of the Son of God, unto a perfect man,
+unto the measure of the stature of the fullness of Christ” (Ephesians
+4:13).
