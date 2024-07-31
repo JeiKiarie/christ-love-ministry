@@ -38,7 +38,7 @@ const ministries = [
 		link: '/ministries/worship',
 	},
 	{
-		name: 'Children’s Ministry',
+		name: `Children’s Ministry`,
 		description:
 			'Programs and activities designed to help children of all ages grow in their faith. We offer age-appropriate lessons and fun activities.',
 		link: '/ministries/children',
@@ -319,9 +319,9 @@ const HomePage = () => {
 								<Typography
 									variant="h6"
 									paragraph>
-									"Joining this church has been a transformative experience for
-									me. The community is incredibly supportive and welcoming. I’ve
-									grown so much in my faith here."
+									&#34;Joining this church has been a transformative experience
+									for me. The community is incredibly supportive and welcoming.
+									I&#39;ve grown so much in my faith here.&#34;
 								</Typography>
 								<Typography
 									variant="body2"
@@ -341,9 +341,9 @@ const HomePage = () => {
 								<Typography
 									variant="h6"
 									paragraph>
-									"The outreach programs have been a great way to connect with
-									the community and make a positive impact. I feel truly
-									involved and valued here."
+									&#34;The outreach programs have been a great way to connect
+									with the community and make a positive impact. I feel truly
+									involved and valued here.&#34;
 								</Typography>
 								<Typography
 									variant="body2"
