@@ -130,14 +130,14 @@ const Footer = () => {
 					<Typography
 						variant="body1"
 						paragraph>
-						“To know God and to make Him known through evangelism and
-						discipleship”. To preach the gospel of Jesus Christ in the power of
-						the holy Spirit. To make disciples of all who believe the gospel To
-						establish Local Churches and abroad. To Provide diaconal services to
-						the disciples and the community. To equip the members with knowledge
-						and skill to serve the Lord Jesus Christ. To build church capacity
-						and mobilize resources that will facilitate the attainment of the
-						afore mentioned mission objectives.
+						&#34;To know God and to make Him known through evangelism and
+						discipleship&#34;. To preach the gospel of Jesus Christ in the power
+						of the holy Spirit. To make disciples of all who believe the gospel
+						To establish Local Churches and abroad. To Provide diaconal services
+						to the disciples and the community. To equip the members with
+						knowledge and skill to serve the Lord Jesus Christ. To build church
+						capacity and mobilize resources that will facilitate the attainment
+						of the afore mentioned mission objectives.
 					</Typography>
 				</Grid>
 

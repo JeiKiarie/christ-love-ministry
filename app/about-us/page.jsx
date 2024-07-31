@@ -48,7 +48,7 @@ export default function About() {
 				{
 					heading: 'Vision Bearer ',
 					paragraph1: `Who is the founder of Christ 's Love Ministry? Apostle Dr. Jane
-						Njeri Kinyanjui *History* Our history dates back to 1997 when
+						Njeri Kinyanjui. Our history dates back to 1997 when
 						Apostle Dr. Jane Njeri Kinyanjui was residing in Mwiki Kasarani
 						Nairobi County started a fellowship with the vision of establishing
 						a church. The first church service was held at Mwiki - Kasarani. In
@@ -67,15 +67,14 @@ export default function About() {
 				},
 				{
 					heading: 'We believe',
-					paragraph1: `Our beliefs are founded solely on the Bible, which we consider God's
-					infallible written Word. This includes both the Old and New
+					paragraph1: `Our beliefs are founded solely on the Bible, which we consider God's infallible written Word. This includes both the Old and New
 					Testaments, which we believe were uniquely inspired by the Holy
 					Spirit and written without error in their original manuscripts.
 					Christ's Love Ministry emphasizes individuals making a personal
 					commitment to Christ, believers entering into water baptism, place
 					of faith in divine healing, emphasis on the baptism in the Holy
 					Spirit with the evidence of speaking in tongues, and the second
-					coming of Jesus Christ. Christ's Live Ministry believes that God’s
+					coming of Jesus Christ. Christ's Live Ministry believes that God's
 					purpose concerning man is to seek and to save that which is lost, to
 					be worshiped by man and to build a body of believers in the image of
 					His Son Jesus Christ.`,
@@ -94,7 +93,7 @@ export default function About() {
 					and church clerics. That the priority reason-for-being of the
 					Christ's Love Ministry is to be an agency of God for evangelizing
 					the world, to be a corporate body in which man may worship God, and
-					to be a channel of God’s purpose to build a body of saints being
+					to be a channel of God's purpose to build a body of saints being
 					perfected in the image of His Son.`,
 					paragraph3: `That the Christ's Love Ministry
 					exists expressly to give continuing emphasis to this reason-for
@@ -111,10 +110,10 @@ export default function About() {
 					recognize and promote scriptural methods and order for worship,
 					unity, fellowship, work, and business for God; and to disapprove
 					unscriptural methods, doctrines, and conduct, endeavoring to keep
-					the unity of the Spirit in the bond of peace, “till we all come in
+					the unity of the Spirit in the bond of peace, "till we all come in
 					the unity of the faith, and of the knowledge of the Son of God, unto
 					a perfect man, unto the measure of the stature of the fullness of
-					Christ” (Ephesians 4:13).`,
+					Christ" (Ephesians 4:13).`,
 					image: Image1,
 				},
 				{
@@ -130,7 +129,7 @@ export default function About() {
 					manifested in the flesh, and who gave himself on the cross as
 					propitiation for our sins and rose again on the third day and is now
 					seated at the right hand of the Father; and in the Holy Spirit, the
-					comforter and helper, who gives spiritual birth to believers’ lives
+					comforter and helper, who gives spiritual birth to believers' lives
 					within them and empowers them for witnessing and service. We believe
 					the Holy Spirit inspired the scriptures, convicts of sin, and
 					instructs in righteousness.`,
@@ -138,12 +137,12 @@ export default function About() {
 					word of God and is to be used as our guide in matters of faith and
 					conduct. We believe in the Church: that Christ Jesus is the head of
 					the church, the church is the body of believers dedicated to the
-					worship and service of God and dedicated to the building of God’s
+					worship and service of God and dedicated to the building of God's
 					kingdom. We believe that all men have sinned and fallen short of the
 					glory of God and are in need of salvation but unable to save
 					themselves. In order to be saved, we believe one must be born again,
-					repenting of one’s sins and receiving by faith Christ’s sacrificial
-					atonement for one’s sins. We believe in the baptism of believers by
+					repenting of one's sins and receiving by faith Christ's sacrificial
+					atonement for one's sins. We believe in the baptism of believers by
 					immersion, symbolizing burial with Christ and resurrection to
 					newness of life, and the washing away of sins. We believe that
 					children may be dedicated until they reach an age when they can make
@@ -152,8 +151,8 @@ export default function About() {
 				},
 				{
 					heading: 'Our Mission',
-					paragraph1: `“To know God and to make Him known through evangelism and
-					discipleship” To preach the gospel of Jesus Christ in the power of
+					paragraph1: `"To know God and to make Him known through evangelism and
+					discipleship" To preach the gospel of Jesus Christ in the power of
 					the holy Spirit To make disciples of all who believe the gospel To
 					establish Local Churches and abroad. To Provide diaconal services to
 					the disciples and the community To equip the members with knowledge
@@ -164,8 +163,8 @@ export default function About() {
 				},
 				{
 					heading: 'Our Vision',
-					paragraph1: `“A Community of Believers Impacting the World with the Gospel of our	Lord Jesus Christ and repentance through the transforming Power of
-					the Holy Spirit” of national importance must be addressed. To be a
+					paragraph1: `"A Community of Believers Impacting the World with the Gospel of our	Lord Jesus Christ and repentance through the transforming Power of
+					the Holy Spirit" of national importance must be addressed. To be a
 					dynamic church of God fearing believers, who know Jesus Christ
 					intimately and are holistically transformed and who reach out to all
 					people with the Gospel of Jesus Christ.`,

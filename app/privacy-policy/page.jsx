@@ -24,10 +24,10 @@ const PrivacyPolicy = () => {
 			<Typography
 				variant="body1"
 				paragraph>
-				Welcome to Christ's Love Ministry. We are committed to protecting your
-				privacy and ensuring that your personal information is handled in a safe
-				and responsible manner. This Privacy Policy outlines how we collect,
-				use, and protect your information.
+				Welcome to Christ&#39;s Love Ministry. We are committed to protecting
+				your privacy and ensuring that your personal information is handled in a
+				safe and responsible manner. This Privacy Policy outlines how we
+				collect, use, and protect your information.
 			</Typography>
 
 			<Box sx={{ my: 4 }}>
@@ -191,7 +191,7 @@ const PrivacyPolicy = () => {
 					If you have any questions about this Privacy Policy, please contact us
 					at:
 				</Typography>
-				<Typography variant="body1">Christ's Love Ministry</Typography>
+				<Typography variant="body1">Christ&#39;s Love Ministry</Typography>
 				<Typography variant="body1">123 Church St., Nairobi, Kenya.</Typography>
 				<Typography variant="body1">Phone: +254 722 374497</Typography>
 				<Typography variant="body1">
