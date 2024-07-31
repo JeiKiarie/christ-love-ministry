@@ -160,6 +160,7 @@ const Footer = () => {
 						Contact Us
 					</Typography>
 					<Box
+						component={'address'}
 						sx={{
 							display: 'flex',
 							// justifyContent: 'center',

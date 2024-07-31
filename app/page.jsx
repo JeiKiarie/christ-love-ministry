@@ -55,40 +55,52 @@ const HomePage = () => {
 	// const theme = useTheme();
 
 	return (
-		<Box sx={{ py: 0.2 }}>
+		<Box
+			sx={{ py: 0.2 }}
+			component={'main'}>
 			{/* Hero Section with Carousel */}
-			<Box sx={{ mb: 1 }}>
+			<Box
+				sx={{ mb: 1 }}
+				component={'section'}>
 				<Carousel />
 			</Box>
 
 			{/* About Us Section */}
-			<Box sx={{ textAlign: 'center' }}>
-				<Typography
-					variant="h3"
-					component="h2"
-					gutterBottom>
-					Welcome to Christ's Love Ministry
-				</Typography>
-				<Typography
-					variant="h5"
-					paragraph>
-					At Christ's Love Ministry, we believe in the power of community and
-					faith. We strive to nurture and inspire individuals to grow
-					spiritually and engage actively in our church life. We also offer a
-					variety of programs and services to support every member of our
-					community.
-				</Typography>
-				<Button
-					variant="contained"
-					color="primary"
-					component={Link}
-					href="/about-us">
-					Learn More About Us
-				</Button>
+			<Box
+				sx={{ textAlign: 'center' }}
+				component="section">
+				<Box
+					component={'article'}
+					className="section-center">
+					<Typography
+						variant="h3"
+						component="h2"
+						gutterBottom>
+						Welcome to Christ's Love Ministry
+					</Typography>
+					<Typography
+						variant="h5"
+						paragraph>
+						At Christ's Love Ministry, we believe in the power of community and
+						faith. We strive to nurture and inspire individuals to grow
+						spiritually and engage actively in our church life. We also offer a
+						variety of programs and services to support every member of our
+						community.
+					</Typography>
+					<Button
+						variant="contained"
+						color="primary"
+						component={Link}
+						href="/about-us">
+						Learn More About Us
+					</Button>
+				</Box>
 			</Box>
 
 			{/* Upcoming Events Section */}
-			<Box sx={{ my: 6, textAlign: 'center' }}>
+			<Box
+				sx={{ my: 6, textAlign: 'center' }}
+				component={'section'}>
 				<Typography
 					variant="h4"
 					component="h2"
@@ -96,6 +108,7 @@ const HomePage = () => {
 					Upcoming Events
 				</Typography>
 				<Grid
+					className="section-center"
 					container
 					px={1}
 					justifyContent={'space-between'}
@@ -107,7 +120,9 @@ const HomePage = () => {
 							sm={6}
 							md={4}
 							key={index}>
-							<Card variant="outlined">
+							<Card
+								variant="outlined"
+								component={'article'}>
 								<CardContent>
 									<Typography variant="h5">{event.title}</Typography>
 									<Typography color="textSecondary">{event.date}</Typography>
@@ -129,7 +144,9 @@ const HomePage = () => {
 			</Box>
 
 			{/* Ministries Section */}
-			<Box sx={{ my: 6, textAlign: 'center' }}>
+			<Box
+				sx={{ my: 6, textAlign: 'center' }}
+				component={'section'}>
 				<Typography
 					variant="h4"
 					component="h2"
@@ -137,6 +154,7 @@ const HomePage = () => {
 					Our Ministries
 				</Typography>
 				<Grid
+					className="section-center"
 					container
 					spacing={2}
 					justifyContent="center">
@@ -148,6 +166,7 @@ const HomePage = () => {
 							md={4}
 							key={index}>
 							<Card
+								component={'article'}
 								variant="outlined"
 								sx={{
 									minHeight: '13rem',
@@ -181,14 +200,18 @@ const HomePage = () => {
 			</Box>
 
 			{/* Service Times Section */}
-			<Box sx={{ my: 6 }}>
+			<Box
+				sx={{ my: 6 }}
+				component={'section'}>
 				<Typography
 					variant="h4"
 					component="h2"
-					gutterBottom>
+					gutterBottom
+					textAlign={'center'}>
 					Service Times
 				</Typography>
 				<Grid
+					className="section-center"
 					container
 					spacing={2}>
 					<Grid
@@ -196,7 +219,9 @@ const HomePage = () => {
 						xs={12}
 						sm={6}
 						md={4}>
-						<Card variant="outlined">
+						<Card
+							variant="outlined"
+							component={'article'}>
 							<CardContent>
 								<Typography variant="h5">Sunday Worship</Typography>
 								<Typography>9:00 AM - Traditional Service</Typography>
@@ -238,30 +263,38 @@ const HomePage = () => {
 			</Box>
 
 			{/* Get Involved Section */}
-			<Box sx={{ my: 6, textAlign: 'center' }}>
-				<Typography
-					variant="h4"
-					component="h2"
-					gutterBottom>
-					Get Involved
-				</Typography>
-				<Typography paragraph>
-					Whether you are looking to volunteer, join a small group, or become a
-					member, there are many ways to get involved at Christ's Love Ministry.
-					We invite you to explore the opportunities and find where you can make
-					a difference.
-				</Typography>
-				<Button
-					variant="contained"
-					color="primary"
-					component={Link}
-					href="/get-involved">
-					Find Out How to Get Involved
-				</Button>
+			<Box
+				sx={{ my: 6, textAlign: 'center' }}
+				component={'section'}>
+				<Box
+					className="section-center"
+					component={'article'}>
+					<Typography
+						variant="h4"
+						component="h2"
+						gutterBottom>
+						Get Involved
+					</Typography>
+					<Typography paragraph>
+						Whether you are looking to volunteer, join a small group, or become
+						a member, there are many ways to get involved at Christ's Love
+						Ministry. We invite you to explore the opportunities and find where
+						you can make a difference.
+					</Typography>
+					<Button
+						variant="contained"
+						color="primary"
+						component={Link}
+						href="/get-involved">
+						Find Out How to Get Involved
+					</Button>
+				</Box>
 			</Box>
 
 			{/* Testimonials Section */}
-			<Box sx={{ my: 6 }}>
+			<Box
+				sx={{ my: 6 }}
+				component={'section'}>
 				<Typography
 					variant="h4"
 					component="h2"
@@ -270,6 +303,7 @@ const HomePage = () => {
 					What Our Members Say
 				</Typography>
 				<Grid
+					className="section-center"
 					container
 					spacing={2}
 					justifyContent="center">
@@ -278,7 +312,9 @@ const HomePage = () => {
 						xs={12}
 						sm={6}
 						md={4}>
-						<Card variant="outlined">
+						<Card
+							variant="outlined"
+							component={'article'}>
 							<CardContent>
 								<Typography
 									variant="h6"
@@ -321,25 +357,31 @@ const HomePage = () => {
 			</Box>
 
 			{/* Call to Action Section */}
-			<Box sx={{ my: 6, textAlign: 'center' }}>
-				<Typography
-					variant="h4"
-					component="h2"
-					gutterBottom>
-					Join Us This Sunday!
-				</Typography>
-				<Typography paragraph>
-					Experience the warmth of our community and the inspiration of our
-					services. We welcome you to join us for our Sunday worship and get
-					involved in our vibrant community life.
-				</Typography>
-				<Button
-					variant="contained"
-					color="primary"
-					component={Link}
-					href="/contact">
-					Contact Us
-				</Button>
+			<Box
+				sx={{ my: 6, textAlign: 'center' }}
+				component={'section'}>
+				<Box
+					className="section-center"
+					component={'article'}>
+					<Typography
+						variant="h4"
+						component="h2"
+						gutterBottom>
+						Join Us Today!
+					</Typography>
+					<Typography paragraph>
+						Experience the warmth of our community and the inspiration of our
+						services. We welcome you to join us for our Sunday worship and get
+						involved in our vibrant community life.
+					</Typography>
+					<Button
+						variant="contained"
+						color="primary"
+						component={Link}
+						href="/contact">
+						Contact Us
+					</Button>
+				</Box>
 			</Box>
 		</Box>
 	);

@@ -10,7 +10,8 @@ export default function About() {
 			className="about-page">
 			<Box
 				component="section"
-				height="25rem">
+				height="25rem"
+				my={9}>
 				<Image
 					src={Image1}
 					style={{
@@ -44,7 +45,7 @@ export default function About() {
 					image: Image1,
 				},
 				{
-					heading: '*Vision Bearer* ',
+					heading: 'Vision Bearer ',
 					paragraph1: `Who is the founder of Christ 's Love Ministry? Apostle Dr. Jane
 						Njeri Kinyanjui *History* Our history dates back to 1997 when
 						Apostle Dr. Jane Njeri Kinyanjui was residing in Mwiki Kasarani
@@ -64,7 +65,7 @@ export default function About() {
 					image: Image1,
 				},
 				{
-					heading: '*We believe*',
+					heading: 'We believe',
 					paragraph1: `Our beliefs are founded solely on the Bible, which we consider God's
 					infallible written Word. This includes both the Old and New
 					Testaments, which we believe were uniquely inspired by the Holy
@@ -116,7 +117,7 @@ export default function About() {
 					image: Image1,
 				},
 				{
-					heading: '*Faith Statement*',
+					heading: 'Faith Statement',
 					paragraph1: `We believe in the deity of our Lord Jesus Christ, in His virgin
 					birth, in His bodily death and resurrection from the dead and His
 					ascension to the right hand of God We believe that the Son of God,
@@ -149,7 +150,7 @@ export default function About() {
 					image: Image1,
 				},
 				{
-					heading: '*Our Mission*',
+					heading: 'Our Mission',
 					paragraph1: `“To know God and to make Him known through evangelism and
 					discipleship” To preach the gospel of Jesus Christ in the power of
 					the holy Spirit To make disciples of all who believe the gospel To
@@ -161,7 +162,7 @@ export default function About() {
 					image: Image1,
 				},
 				{
-					heading: '*Our Vision*',
+					heading: 'Our Vision',
 					paragraph1: `“A Community of Believers Impacting the World with the Gospel of our	Lord Jesus Christ and repentance through the transforming Power of
 					the Holy Spirit” of national importance must be addressed. To be a
 					dynamic church of God fearing believers, who know Jesus Christ

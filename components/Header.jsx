@@ -58,8 +58,11 @@ export default function Header() {
 	);
 
 	return (
-		<Box sx={{ flexGrow: 1, marginBottom: '4.2rem' }}>
+		<Box
+			sx={{ flexGrow: 1, marginBottom: '4.2rem' }}
+			component={'header'}>
 			<AppBar
+				component={'nav'}
 				position="fixed"
 				top="0"
 				right="0"
@@ -87,7 +90,7 @@ export default function Header() {
 							</Drawer>
 						</>
 					) : (
-						<Box>
+						<Box component={'ul'}>
 							{[
 								{ name: 'Home', link: '/' },
 								{ name: 'About Us', link: '/about-us' },
