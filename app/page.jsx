@@ -277,7 +277,7 @@ const HomePage = () => {
 					</Typography>
 					<Typography paragraph>
 						Whether you are looking to volunteer, join a small group, or become
-						a member, there are many ways to get involved at Christ's Love
+						a member, there are many ways to get involved at Christ&#39;s Love
 						Ministry. We invite you to explore the opportunities and find where
 						you can make a difference.
 					</Typography>
