@@ -158,7 +158,7 @@ const PrivacyPolicy = () => {
 					You have the right to access, update, and delete your personal
 					information. You can also object to the processing of your personal
 					information or request that we restrict the processing of your
-					personal information. To exercise these rights, please contact us at{' '}
+					personal information. To exercise these rights, please contact us at
 					<Link href="mailto:info@church.com">info@church.com</Link>.
 				</Typography>
 			</Box>

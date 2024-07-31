@@ -76,13 +76,13 @@ const HomePage = () => {
 						variant="h3"
 						component="h2"
 						gutterBottom>
-						Welcome to Christ's Love Ministry
+						Welcome to Christ&#39;s Love Ministry
 					</Typography>
 					<Typography
 						variant="h5"
 						paragraph>
-						At Christ's Love Ministry, we believe in the power of community and
-						faith. We strive to nurture and inspire individuals to grow
+						At Christ&#39;s Love Ministry, we believe in the power of community
+						and faith. We strive to nurture and inspire individuals to grow
 						spiritually and engage actively in our church life. We also offer a
 						variety of programs and services to support every member of our
 						community.

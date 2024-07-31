@@ -57,10 +57,10 @@ export default function Ministries() {
 									<Typography
 										variant="h4"
 										component="h2">
-										Children's Ministry <BiHeart />
+										Children&#39;s Ministry <BiHeart />
 									</Typography>
 									<Typography paragraph>
-										Our children's ministry provides a safe and nurturing
+										Our children&#39;s ministry provides a safe and nurturing
 										environment for kids to learn about Jesus. We offer Sunday
 										school classes and special events throughout the year.
 									</Typography>
@@ -103,8 +103,8 @@ export default function Ministries() {
 									<Typography paragraph>
 										We offer various programs for adults, including Bible
 										studies, prayer groups, and fellowship events. Whether
-										you’re single, married, or a senior, there’s a place for you
-										to connect and grow.
+										you&#39;re single, married, or a senior, there&#39;s a place
+										for you to connect and grow.
 									</Typography>
 								</CardContent>
 							</Card>
