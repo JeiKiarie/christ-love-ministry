@@ -32,7 +32,7 @@ export default function Header() {
 			<Typography
 				variant="h5"
 				sx={{ my: 2 }}>
-				Christ's Love Ministry
+				Christ&#39;s Love Ministry
 			</Typography>
 			<List>
 				{[
@@ -71,7 +71,7 @@ export default function Header() {
 					<Typography
 						variant="h6"
 						sx={{ flexGrow: 1 }}>
-						Christ's Love Ministry
+						Christ&#39;s Love Ministry
 					</Typography>
 					{isMobile ? (
 						<>

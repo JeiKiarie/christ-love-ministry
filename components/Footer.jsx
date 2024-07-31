@@ -289,8 +289,8 @@ const Footer = () => {
 				<Typography
 					variant="body2"
 					color="textSecondary">
-					&copy; {new Date().getFullYear()} Christ's Love Ministry. All rights
-					reserved.
+					&copy; {new Date().getFullYear()} Christ&#39;s Love Ministry. All
+					rights reserved.
 				</Typography>
 				<Link
 					href="/privacy-policy"
