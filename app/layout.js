@@ -5,8 +5,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export const metadata = {
-	title: 'Church Website',
-	description: 'A church website built with Next.js and Material UI',
+	title: `Christ's Love Ministry`,
+	description: 'Join us for worship and community',
 };
 
 export default function RootLayout({ children }) {

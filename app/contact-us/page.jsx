@@ -10,6 +10,7 @@ export default function Contact() {
 				component="section"
 				height="25rem">
 				<Image
+					alt=""
 					src={Image1}
 					style={{
 						height: '100%',

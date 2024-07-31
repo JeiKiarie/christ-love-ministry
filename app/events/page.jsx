@@ -20,6 +20,7 @@ export default function Events() {
 				height="25rem"
 				my={9}>
 				<Image
+					alt=""
 					src={Image1}
 					style={{
 						height: '100%',

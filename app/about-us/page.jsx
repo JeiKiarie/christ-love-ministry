@@ -14,6 +14,7 @@ export default function About() {
 				my={9}>
 				<Image
 					src={Image1}
+					alt=""
 					style={{
 						height: '100%',
 						width: '100%',
@@ -172,6 +173,7 @@ export default function About() {
 				},
 			].map((article) => (
 				<Box
+					key={article.heading}
 					component={'section'}
 					className="section-center about-info-container"
 					my={4}>
