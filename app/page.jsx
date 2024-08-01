@@ -60,6 +60,7 @@ const HomePage = () => {
 			component={'main'}>
 			{/* Hero Section with Carousel */}
 			<Box
+				// className="carousel"
 				sx={{ mb: 1 }}
 				component={'section'}>
 				<Carousel />

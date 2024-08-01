@@ -54,6 +54,11 @@ section {
 		max-width: 100% !important;
 	}
 }
+@media screen and (max-width: 768px) {
+	.carousel {
+		height: 50vh;
+	}
+}
 
 /* About */
 .about-info-container {

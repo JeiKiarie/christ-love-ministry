@@ -8,7 +8,7 @@ export default function Giving() {
 		<>
 			<Box
 				component="section"
-				height="25rem">
+				height="20rem">
 				<Image
 					alt=""
 					src={Image1}

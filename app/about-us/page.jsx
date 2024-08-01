@@ -10,7 +10,7 @@ export default function About() {
 			className="about-page">
 			<Box
 				component="section"
-				height="25rem"
+				height="20rem"
 				my={9}>
 				<Image
 					src={Image1}

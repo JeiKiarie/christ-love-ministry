@@ -67,7 +67,9 @@ const Carousel = () => {
 	};
 
 	return (
-		<Box sx={{ maxWidth: '100%', overflow: 'hidden', position: 'relative' }}>
+		<Box
+			sx={{ maxWidth: '100%', overflow: 'hidden', position: 'relative' }}
+			className="carousel">
 			<Slider {...settings}>
 				{carouselItems.map((item, index) => (
 					<CarouselItem

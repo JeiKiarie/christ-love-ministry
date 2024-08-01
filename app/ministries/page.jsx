@@ -16,7 +16,7 @@ export default function Ministries() {
 		<>
 			<Box
 				component="section"
-				height="25rem"
+				height="20rem"
 				my={9}>
 				<Image
 					alt=""
