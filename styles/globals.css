@@ -43,7 +43,7 @@ a {
 section {
 	width: 100% !important;
 	margin-bottom: 2rem;
-	padding-inline: 2rem;
+	/* padding-inline: 2rem; */
 }
 .section-center {
 	max-width: 1200px !important;
