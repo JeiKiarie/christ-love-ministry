@@ -5,9 +5,12 @@ const theme = createTheme({
 	palette: {
 		primary: {
 			main: '#1976d2',
+			// main: '#fff',
+			// main: '#bf0205',
 		},
 		secondary: {
 			main: '#dc004e',
+			// A400: '#bf0205',
 		},
 	},
 	typography: {

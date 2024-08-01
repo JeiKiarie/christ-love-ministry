@@ -8,7 +8,8 @@ export default function Contact() {
 		<>
 			<Box
 				component="section"
-				height="20rem">
+				height="20rem"
+				my={9}>
 				<Image
 					alt=""
 					src={Image1}

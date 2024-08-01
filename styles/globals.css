@@ -59,6 +59,13 @@ section {
 		height: 50vh;
 	}
 }
+/* .nav {
+	background: linear-gradient(
+		to right,
+		rgb(255, 255, 255) 25%,
+		#cca6c8 75%
+	) !important;
+} */
 
 /* About */
 .about-info-container {
