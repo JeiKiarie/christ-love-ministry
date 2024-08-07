@@ -1,7 +1,14 @@
 // app/about/page.js
 import { Container, Typography, Box, Grid } from '@mui/material';
 import Image from 'next/image';
-import Image1 from '../../public/images/ismael-paramo-Ra8Oi7iVjqY.jpg';
+import Image1 from '../../public/images/church-faithful4.jpg';
+import Image2 from '../../public/images/church-faithful5.jpg';
+import Image3 from '../../public/images/church-faithful6.jpg';
+import Image4 from '../../public/images/church-faithful1.jpg';
+import Image5 from '../../public/images/church-faithful3.jpg';
+import Image6 from '../../public/images/church-faithful2.jpg';
+import Image7 from '../../public/images/church-faithful7.jpg';
+import Pastor from '../../public/images/jane-kinyanjui2.jpg';
 
 export default function About() {
 	return (
@@ -10,8 +17,10 @@ export default function About() {
 			className="about-page">
 			<Box
 				component="section"
-				height="20rem"
-				my={9}>
+				height="32rem"
+				mt={9}
+				// mb={'0.5rem'}
+			>
 				<Image
 					src={Image1}
 					alt=""
@@ -43,7 +52,7 @@ export default function About() {
 						of life. Accordingly, apart from spiritual ministry to our
 						congregations, we consider underprivileged communities, especially
 						orphans, destitute children and widows.`,
-					image: Image1,
+					image: Image2,
 				},
 				{
 					heading: 'Vision Bearer ',
@@ -63,7 +72,7 @@ export default function About() {
 						strives to know God and make Him known who desire to lift up the
 						Lord Jesus Christ through worship and prayer as He draws His people
 						through His Word`,
-					image: Image1,
+					image: Image3,
 				},
 				{
 					heading: 'We believe',
@@ -114,7 +123,7 @@ export default function About() {
 					the unity of the faith, and of the knowledge of the Son of God, unto
 					a perfect man, unto the measure of the stature of the fullness of
 					Christ" (Ephesians 4:13).`,
-					image: Image1,
+					image: Image4,
 				},
 				{
 					heading: 'Faith Statement',
@@ -147,7 +156,7 @@ export default function About() {
 					newness of life, and the washing away of sins. We believe that
 					children may be dedicated until they reach an age when they can make
 					their own decision to follow Jesus Christ`,
-					image: Image1,
+					image: Image5,
 				},
 				{
 					heading: 'Our Mission',
@@ -159,7 +168,7 @@ export default function About() {
 					and skill to serve the Lord Jesus Christ To build church capacity
 					and mobilize resources that will facilitate the attainment of the
 					afore mentioned mission objectives.`,
-					image: Image1,
+					image: Image6,
 				},
 				{
 					heading: 'Our Vision',
@@ -168,14 +177,15 @@ export default function About() {
 					dynamic church of God fearing believers, who know Jesus Christ
 					intimately and are holistically transformed and who reach out to all
 					people with the Gospel of Jesus Christ.`,
-					image: Image1,
+					image: Image7,
 				},
 			].map((article) => (
 				<Box
 					key={article.heading}
 					component={'section'}
 					className="section-center about-info-container"
-					my={4}>
+					// my={4}
+				>
 					<Box
 						className="about-info-text"
 						component={'article'}
@@ -203,7 +213,12 @@ export default function About() {
 							className="img"
 							alt="congregation"
 							src={article.image}
-							style={{ height: '500px', width: '100%', objectFit: 'cover' }}
+							style={{
+								height: '800px',
+								width: '100%',
+								objectFit: 'cover',
+								objectPosition: 'center',
+							}}
 						/>
 					</Box>
 				</Box>
@@ -222,7 +237,7 @@ export default function About() {
 						<Box className="leadership-img">
 							<Image
 								className="img"
-								src={Image1}
+								src={Pastor}
 								alt="Apostle Dr Jane Njeri Kinyanjui"></Image>
 						</Box>
 

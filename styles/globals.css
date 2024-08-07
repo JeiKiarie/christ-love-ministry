@@ -90,8 +90,8 @@ section {
 .leadership-section .leadership-img {
 	/* flex-basis: calc(30% - 2rem); */
 	/* margin-right: 2rem; */
-	height: 20rem;
-	width: 20rem;
+	height: 25rem;
+	width: 25rem;
 	/* border-radius: 50%; */
 }
 .leadership-img img {
@@ -99,6 +99,7 @@ section {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	object-position: top;
 }
 .leadership-section .leadership-text {
 	flex-basis: calc(70% - 2rem);
