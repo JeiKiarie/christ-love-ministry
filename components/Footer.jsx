@@ -31,7 +31,8 @@ const Footer = () => {
 	};
 	return (
 		<Box
-			style={{ backgroundColor: '#001759', color: '#fff' }}
+			style={{ backgroundColor: '#001759' }}
+			className="text-yellow-100"
 			component={'section'}
 			sx={{
 				// bgcolor: theme.palette.background.paper,
@@ -53,10 +54,11 @@ const Footer = () => {
 					}}
 					item
 					xs={12}
-					md={1.5}>
+					md={3}>
 					<Typography
 						variant="h6"
-						gutterBottom>
+						gutterBottom
+						className="text-2xl mb-6">
 						Quick Links
 					</Typography>
 					<Box>
@@ -122,10 +124,11 @@ const Footer = () => {
 					}}
 					item
 					xs={12}
-					md={5.5}>
+					md={4.5}>
 					<Typography
 						variant="h6"
-						gutterBottom>
+						gutterBottom
+						className="text-2xl mb-6">
 						Our Mission
 					</Typography>
 					<Typography
@@ -154,10 +157,11 @@ const Footer = () => {
 					}}
 					item
 					xs={12}
-					md={5}>
+					md={4.5}>
 					<Typography
 						variant="h6"
-						gutterBottom>
+						gutterBottom
+						className="text-2xl mb-6">
 						Contact Us
 					</Typography>
 					<Box
@@ -192,7 +196,11 @@ const Footer = () => {
 						}}>
 						<EmailOutlined sx={{ mr: 1 }} />
 						<Typography variant="body2">
-							<Link href="mailto:info@church.com">info@ourchurch.com</Link>
+							<Link
+								href="mailto:info@church.com"
+								className="text-yellow-100">
+								christsloveministry1997@gmail.com
+							</Link>
 						</Typography>
 					</Box>
 				</Grid>
@@ -290,7 +298,7 @@ const Footer = () => {
 				<Typography
 					variant="body2"
 					color="textSecondary"
-					className="text-white">
+					className="text-yellow-100">
 					&copy; {new Date().getFullYear()} Christ&#39;s Love Ministry. All
 					rights reserved.
 				</Typography>

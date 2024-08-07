@@ -76,7 +76,7 @@ const HomePage = () => {
 					<Typography
 						variant="h3"
 						component="h2"
-						className="font-bold"
+						className="font-bold text-4xl"
 						gutterBottom>
 						Welcome to Christ&#39;s Love Ministry
 					</Typography>
@@ -86,7 +86,7 @@ const HomePage = () => {
 						At Christ&#39;s Love Ministry, we believe in the power of community
 						and faith. We strive to nurture and inspire individuals to grow
 						spiritually and engage actively in our church life. We also offer a
-						variety of programs and services to support every member of our
+						variety of programmes and services to support every member of our
 						community.
 					</Typography>
 					<Button
@@ -107,7 +107,7 @@ const HomePage = () => {
 					variant="h4"
 					component="h2"
 					gutterBottom
-					className="font-bold">
+					className="font-bold text-3xl">
 					Upcoming Events
 				</Typography>
 				<Grid
@@ -127,7 +127,11 @@ const HomePage = () => {
 								variant="outlined"
 								component={'article'}>
 								<CardContent>
-									<Typography variant="h5">{event.title}</Typography>
+									<Typography
+										variant="h5"
+										className="text-1xl font-bold">
+										{event.title}
+									</Typography>
 									<Typography color="textSecondary">{event.date}</Typography>
 									<Typography paragraph>{event.description}</Typography>
 								</CardContent>
@@ -154,7 +158,7 @@ const HomePage = () => {
 					variant="h4"
 					component="h2"
 					gutterBottom
-					className="font-bold">
+					className="font-bold text-3xl">
 					Our Ministries
 				</Typography>
 				<Grid
@@ -183,6 +187,7 @@ const HomePage = () => {
 								<CardContent>
 									<Typography
 										variant="h5"
+										className="text-1xl font-bold"
 										gutterBottom>
 										{ministry.name}
 									</Typography>
@@ -212,7 +217,7 @@ const HomePage = () => {
 					component="h2"
 					gutterBottom
 					textAlign={'center'}
-					className="font-bold">
+					className="font-bold text-3xl">
 					Service Times
 				</Typography>
 				<Grid
@@ -278,7 +283,7 @@ const HomePage = () => {
 						variant="h4"
 						component="h2"
 						gutterBottom
-						className="font-bold">
+						className="font-bold text-3xl">
 						Get Involved
 					</Typography>
 					<Typography paragraph>
@@ -306,7 +311,7 @@ const HomePage = () => {
 					component="h2"
 					gutterBottom
 					textAlign="center"
-					className="font-bold">
+					className="font-bold text-3xl">
 					What Our Members Say
 				</Typography>
 				<Grid
@@ -333,7 +338,7 @@ const HomePage = () => {
 								<Typography
 									variant="body2"
 									color="textSecondary">
-									- Member (Name to be supplied)
+									- Duncan Odhiambo - Member
 								</Typography>
 							</CardContent>
 						</Card>
@@ -348,14 +353,14 @@ const HomePage = () => {
 								<Typography
 									variant="h6"
 									paragraph>
-									&#34;The outreach programs have been a great way to connect
+									&#34;The outreach programmes have been a great way to connect
 									with the community and make a positive impact. I feel truly
 									involved and valued here.&#34;
 								</Typography>
 								<Typography
 									variant="body2"
 									color="textSecondary">
-									- Member (Name to be supplied)
+									Emmanuel Kiluma - Member
 								</Typography>
 							</CardContent>
 						</Card>
