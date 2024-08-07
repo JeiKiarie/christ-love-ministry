@@ -13,17 +13,17 @@ const carouselItems = [
 	{
 		title: 'Welcome to Our Church',
 		description: 'Join us for worship and community.',
-		image: '../images/tobiasdoering.jpg',
+		image: '../images/church-faithful1.jpg',
 	},
 	{
 		title: 'Community Outreach',
 		description: 'Making a difference in our community.',
-		image: '../images/ismaelparamo.jpg',
+		image: '../images/church-faithful2.jpg',
 	},
 	{
 		title: 'Faith and Fellowship',
 		description: 'Growing together in faith.',
-		image: '../images/hannahrodrigo.jpg',
+		image: '../images/church-faithful3.jpg',
 	},
 ];
 const CarouselItem = styled(Box)(({ theme }) => ({

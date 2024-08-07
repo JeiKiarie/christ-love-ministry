@@ -31,9 +31,10 @@ const Footer = () => {
 	};
 	return (
 		<Box
+			style={{ backgroundColor: '#001759', color: '#fff' }}
 			component={'section'}
 			sx={{
-				bgcolor: theme.palette.background.paper,
+				// bgcolor: theme.palette.background.paper,
 				py: 6,
 				px: 2,
 			}}>
@@ -288,7 +289,8 @@ const Footer = () => {
 			<Box sx={{ mt: 4, textAlign: 'center' }}>
 				<Typography
 					variant="body2"
-					color="textSecondary">
+					color="textSecondary"
+					className="text-white">
 					&copy; {new Date().getFullYear()} Christ&#39;s Love Ministry. All
 					rights reserved.
 				</Typography>
