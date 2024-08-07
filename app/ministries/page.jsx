@@ -8,7 +8,7 @@ import {
 	Card,
 	CardContent,
 } from '@mui/material';
-import Image1 from '../../public/images/ismael-paramo-Ra8Oi7iVjqY.jpg';
+import Image1 from '../../public/images/church-faithful5.jpg';
 import Image from 'next/image';
 
 export default function Ministries() {
@@ -16,8 +16,8 @@ export default function Ministries() {
 		<>
 			<Box
 				component="section"
-				height="20rem"
-				my={9}>
+				height="32rem"
+				mt={9}>
 				<Image
 					alt=""
 					src={Image1}

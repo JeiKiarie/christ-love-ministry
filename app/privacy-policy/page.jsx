@@ -10,7 +10,7 @@ import React from 'react';
 import { Box, Container, Typography } from '@mui/material';
 import Link from 'next/link';
 import Image from 'next/image';
-import Image1 from '../../public/images/ismael-paramo-Ra8Oi7iVjqY.jpg';
+import Image1 from '../../public/images/church-faithful6.jpg';
 
 const PrivacyPolicy = () => {
 	return (

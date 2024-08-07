@@ -44,8 +44,8 @@ export default function Header() {
 					{ name: 'Sermons', link: '/sermons' },
 					{ name: 'Events', link: '/events' },
 					{ name: 'Get Involved', link: '/get-involved' },
-					{ name: 'Contact Us', link: '/contact-us' },
 					{ name: 'Giving', link: '/giving' },
+					{ name: 'Contact Us', link: '/contact-us' },
 				].map((link) => (
 					<ListItem
 						button
@@ -120,8 +120,8 @@ export default function Header() {
 								{ name: 'Sermons', link: '/sermons' },
 								{ name: 'Events', link: '/events' },
 								{ name: 'Get Involved', link: '/get-involved' },
-								{ name: 'Contact Us', link: '/contact-us' },
 								{ name: 'Giving', link: '/giving' },
+								{ name: 'Contact Us', link: '/contact-us' },
 							].map((link) => (
 								<Button
 									color="inherit"

@@ -1,15 +1,15 @@
 // app/contact/page.js
 import { Container, Typography, Box, TextField, Button } from '@mui/material';
 import Image from 'next/image';
-import Image1 from '../../public/images/ismael-paramo-Ra8Oi7iVjqY.jpg';
+import Image1 from '../../public/images/church-faithful1.jpg';
 
 export default function Contact() {
 	return (
 		<>
 			<Box
 				component="section"
-				height="20rem"
-				my={9}>
+				height="32rem"
+				mt={9}>
 				<Image
 					alt=""
 					src={Image1}
