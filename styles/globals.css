@@ -67,6 +67,21 @@ section {
 	) !important;
 } */
 
+.page-title {
+	background: linear-gradient(to right, #001759, #bf0205, #001759, #bf0205);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.section-title {
+	background: linear-gradient(to right, #001759, #bf0205, #001759, #bf0205);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+/* .page-title {
+	background: linear-gradient(to right, #001759, #bf0205, #001759, #bf0205);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+} */
 /* About */
 .about-info-container {
 	/* display: flex;

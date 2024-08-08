@@ -76,7 +76,7 @@ const HomePage = () => {
 					<Typography
 						variant="h3"
 						component="h2"
-						className="font-bold text-4xl"
+						className="font-bold text-4xl section-title"
 						gutterBottom>
 						Welcome to Christ&#39;s Love Ministry
 					</Typography>
@@ -107,7 +107,7 @@ const HomePage = () => {
 					variant="h4"
 					component="h2"
 					gutterBottom
-					className="font-bold text-3xl">
+					className="font-bold text-3xl page-title">
 					Upcoming Events
 				</Typography>
 				<Grid
@@ -158,7 +158,7 @@ const HomePage = () => {
 					variant="h4"
 					component="h2"
 					gutterBottom
-					className="font-bold text-3xl">
+					className="font-bold text-3xl page-title">
 					Our Ministries
 				</Typography>
 				<Grid
@@ -217,7 +217,7 @@ const HomePage = () => {
 					component="h2"
 					gutterBottom
 					textAlign={'center'}
-					className="font-bold text-3xl">
+					className="font-bold text-3xl page-title">
 					Service Times
 				</Typography>
 				<Grid
@@ -283,7 +283,7 @@ const HomePage = () => {
 						variant="h4"
 						component="h2"
 						gutterBottom
-						className="font-bold text-3xl">
+						className="font-bold text-3xl page-title">
 						Get Involved
 					</Typography>
 					<Typography paragraph>
@@ -311,7 +311,7 @@ const HomePage = () => {
 					component="h2"
 					gutterBottom
 					textAlign="center"
-					className="font-bold text-3xl">
+					className="font-bold text-3xl page-title">
 					What Our Members Say
 				</Typography>
 				<Grid
@@ -379,7 +379,7 @@ const HomePage = () => {
 						variant="h4"
 						component="h2"
 						gutterBottom
-						className="font-bold">
+						className="font-bold page-title">
 						Join Us Today!
 					</Typography>
 					<Typography paragraph>

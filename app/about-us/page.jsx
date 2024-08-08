@@ -197,6 +197,7 @@ export default function About() {
 							variant="h3"
 							component="h3"
 							textAlign={'left'}
+							className="section-title"
 							gutterBottom>
 							{article.heading}
 						</Typography>
