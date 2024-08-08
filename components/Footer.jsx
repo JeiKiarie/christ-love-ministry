@@ -18,7 +18,9 @@ import {
 	Phone,
 	EmailOutlined,
 } from '@mui/icons-material';
+import Image from 'next/image';
 // import GoogleMapReact from 'google-map-react';
+import Logo from '../public/images/Logo.jpg';
 
 const Footer = () => {
 	const theme = useTheme();
@@ -38,6 +40,7 @@ const Footer = () => {
 				// bgcolor: theme.palette.background.paper,
 				py: 6,
 				px: 2,
+				mb: 0,
 			}}>
 			<Grid
 				className="section-center footer"
@@ -69,16 +72,16 @@ const Footer = () => {
 							<Typography variant="body2">Home</Typography>
 						</Link>
 						<Link
-							href="/about"
+							href="/about-us"
 							color="inherit"
 							underline="none">
 							<Typography variant="body2">About Us</Typography>
 						</Link>
 						<Link
-							href="/services"
+							href="/sermons"
 							color="inherit"
 							underline="none">
-							<Typography variant="body2">Services</Typography>
+							<Typography variant="body2">Sermons</Typography>
 						</Link>
 						<Link
 							href="/ministries"
@@ -93,22 +96,22 @@ const Footer = () => {
 							<Typography variant="body2">Events</Typography>
 						</Link>
 						<Link
-							href="/contact"
+							href="/contact-us"
 							color="inherit"
 							underline="none">
 							<Typography variant="body2">Contact</Typography>
 						</Link>
 						<Link
-							href="/donate"
+							href="/get-involved"
 							color="inherit"
 							underline="none">
-							<Typography variant="body2">Donate</Typography>
+							<Typography variant="body2">Get Involved</Typography>
 						</Link>
 						<Link
-							href="/volunteer"
+							href="/giving"
 							color="inherit"
 							underline="none">
-							<Typography variant="body2">Volunteer</Typography>
+							<Typography variant="body2">Giving</Typography>
 						</Link>
 					</Box>
 				</Grid>
@@ -197,11 +200,28 @@ const Footer = () => {
 						<EmailOutlined sx={{ mr: 1 }} />
 						<Typography variant="body2">
 							<Link
-								href="mailto:info@church.com"
+								style={{ textDecoration: 'none' }}
+								href="mailto:christsloveministry1997@gmail.com"
 								className="text-yellow-100">
 								christsloveministry1997@gmail.com
 							</Link>
 						</Typography>
+					</Box>
+					<Box
+						className="rounded"
+						height={'100%'}
+						// width={'25rem'}
+					>
+						<Image
+							className="rounded"
+							src={Logo}
+							style={{
+								height: '100%',
+								width: 'auto',
+								objectFit: 'cover',
+								objectPosition: 'center',
+							}}
+							alt="logo"></Image>
 					</Box>
 				</Grid>
 

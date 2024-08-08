@@ -59,6 +59,19 @@ section {
 		height: 50vh;
 	}
 }
+a {
+	transition: 0.5s ease-in-out;
+}
+a:hover {
+	opacity: 0.6;
+}
+/* .nav-links a {
+	color: red;
+} */
+/* a:active {
+	opacity: 0.6;
+	transform: scale(1.15);
+} */
 /* .nav {
 	background: linear-gradient(
 		to right,

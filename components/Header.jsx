@@ -18,8 +18,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 import Image from 'next/image';
 import Logo from '../public/images/Logo.jpg';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+	const pathname = usePathname();
+	const isActive = (path) => pathname === path;
+
 	const [mobileOpen, setMobileOpen] = useState(false);
 	const isMobile = useMediaQuery((theme) => theme.breakpoints.down('lg'));
 
@@ -112,7 +116,11 @@ export default function Header() {
 							</Drawer>
 						</>
 					) : (
-						<Box component={'ul'}>
+						<Box
+							component={'ul'}
+
+							// className="nav-links"
+						>
 							{[
 								{ name: 'Home', link: '/' },
 								{ name: 'About Us', link: '/about-us' },
@@ -124,10 +132,15 @@ export default function Header() {
 								{ name: 'Contact Us', link: '/contact-us' },
 							].map((link) => (
 								<Button
-									color="inherit"
 									component={Link}
 									href={link.link}
-									key={link.name}>
+									key={link.name}
+									sx={{
+										opacity: isActive(`${link.link}`) ? 0.6 : 1,
+										transform: isActive(`${link.link}`) ? 'scale(1.01)' : null,
+										border: isActive(`${link.link}`) ? '3px solid #fff' : null,
+									}}
+									color="inherit">
 									{link.name}
 								</Button>
 							))}
